@@ -1,0 +1,884 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <question>
+        <id>1</id>
+        <theme>Pollution</theme>
+        <contenu>Quel gaz est le principal contributeur à l'effet de serre lié aux activités humaines ?</contenu>
+        <proposition>Méthane</proposition>
+        <proposition>Oxygène</proposition>
+        <proposition>Ozone</proposition>
+        <bonne_reponse>Dioxyde de carbone</bonne_reponse>
+        <explication>Le dioxyde de carbone (CO₂) est libéré en grande quantité lors de la combustion de combustibles fossiles, contribuant significativement à l'effet de serre.</explication>
+    </question>
+
+    <question>
+        <id>2</id>
+        <theme>Pollution</theme>
+        <contenu>Quelle activité humaine est la plus responsable de la déforestation et de la pollution atmosphérique liée aux feux ?</contenu>
+        <proposition>Industrie textile</proposition>
+        <proposition>Agriculture intensive</proposition>
+        <proposition>Pêche</proposition>
+        <bonne_reponse>Élevage</bonne_reponse>
+        <explication>L'élevage est une cause majeure de déforestation, notamment pour créer des pâturages, ce qui augmente aussi les feux et la pollution atmosphérique.</explication>
+    </question>
+
+    <question>
+        <id>3</id>
+        <theme>Pollution</theme>
+        <contenu>Quelle est la principale source de pollution plastique des océans ?</contenu>
+        <proposition>Activités minières</proposition>
+        <proposition>Fertilisation</proposition>
+        <proposition>Déchets industriels</proposition>
+        <bonne_reponse>Déchets urbains</bonne_reponse>
+        <explication>Les déchets plastiques proviennent majoritairement des déchets urbains mal gérés, qui finissent dans les rivières et océans.</explication>
+    </question>
+
+    <question>
+        <id>4</id>
+        <theme>Pollution</theme>
+        <contenu>Quel polluant est le plus commun dans la pollution des sols due aux pesticides ?</contenu>
+        <proposition>CO₂</proposition>
+        <proposition>H2O</proposition>
+        <proposition>Sodium</proposition>
+        <bonne_reponse>Azote</bonne_reponse>
+        <explication>L’azote est un composant clé des engrais chimiques et, lorsqu'il est en excès, il pollue les sols et les eaux souterraines.</explication>
+    </question>
+
+    <question>
+        <id>5</id>
+        <theme>Pollution</theme>
+        <contenu>Quel type de pollution est principalement causé par les voitures et les usines ?</contenu>
+        <proposition>Sonore</proposition>
+        <proposition>Lumineuse</proposition>
+        <proposition>Déchets solides</proposition>
+        <bonne_reponse>Atmosphérique</bonne_reponse>
+        <explication>Les voitures et les usines émettent des gaz et des particules fines, contribuant à la pollution de l'air, ou pollution atmosphérique.</explication>
+    </question>
+
+    <question>
+        <id>6</id>
+        <theme>Pollution</theme>
+        <contenu>Quel type de particules est souvent mesuré pour évaluer la pollution de l'air en ville ?</contenu>
+        <proposition>PM10</proposition>
+        <proposition>PM50</proposition>
+        <proposition>PM100</proposition>
+        <bonne_reponse>PM2.5</bonne_reponse>
+        <explication>Les particules PM2.5 sont particulièrement dangereuses pour la santé humaine car elles pénètrent profondément dans les poumons.</explication>
+    </question>
+
+    <question>
+        <id>7</id>
+        <theme>Pollution</theme>
+        <contenu>Quel métal lourd est souvent trouvé dans les rivières polluées par l'industrie ?</contenu>
+        <proposition>Fer</proposition>
+        <proposition>Cuivre</proposition>
+        <proposition>Nickel</proposition>
+        <bonne_reponse>Mercure</bonne_reponse>
+        <explication>Le mercure est un métal toxique couramment rejeté par certaines industries dans les cours d'eau, contaminant la faune et la flore.</explication>
+    </question>
+
+    <question>
+        <id>8</id>
+        <theme>Pollution</theme>
+        <contenu>Quel polluant est principalement émis par les moteurs diesel ?</contenu>
+        <proposition>Ozone</proposition>
+        <proposition>Azote</proposition>
+        <proposition>Sulfates</proposition>
+        <bonne_reponse>NOx</bonne_reponse>
+        <explication>Les oxydes d'azote (NOx) sont produits en grande quantité par les moteurs diesel, contribuant à la pollution atmosphérique et aux pluies acides.</explication>
+    </question>
+
+    <question>
+        <id>9</id>
+        <theme>Pollution</theme>
+        <contenu>Quel phénomène atmosphérique est directement lié à l'excès de dioxyde de soufre (SO₂) ?</contenu>
+        <proposition>Smog</proposition>
+        <proposition>Effet de serre</proposition>
+        <proposition>Ozone troposphérique</proposition>
+        <bonne_reponse>Pluie acide</bonne_reponse>
+        <explication>Le SO₂, en se combinant avec l'eau dans l'atmosphère, forme des acides qui retombent sous forme de pluie acide, endommageant les sols et les écosystèmes.</explication>
+    </question>
+
+    <question>
+        <id>10</id>
+        <theme>Pollution</theme>
+        <contenu>Quelle activité agricole est responsable d'une pollution importante de méthane (CH₄) ?</contenu>
+        <proposition>Culture de riz</proposition>
+        <proposition>Agriculture biologique</proposition>
+        <proposition>Pisciculture</proposition>
+        <bonne_reponse>Élevage de bétail</bonne_reponse>
+        <explication>L'élevage de bétail, en particulier les ruminants comme les vaches, produit beaucoup de méthane, un gaz à effet de serre puissant.</explication>
+    </question>
+
+    <question>
+        <id>11</id>
+        <theme>Climat</theme>
+        <contenu>Quel gaz est principalement responsable de l'augmentation de l'effet de serre ?</contenu>
+        <proposition>Oxygène</proposition>
+        <proposition>Hydrogène</proposition>
+        <proposition>Azote</proposition>
+        <bonne_reponse>CO₂</bonne_reponse>
+        <explication>Le dioxyde de carbone (CO₂), issu des combustibles fossiles, est un gaz majeur contribuant à l'effet de serre et au réchauffement climatique.</explication>
+    </question>
+
+    <question>
+        <id>12</id>
+        <theme>Climat</theme>
+        <contenu>Quelle activité humaine est la principale cause de l'augmentation des gaz à effet de serre ?</contenu>
+        <proposition>Déforestation</proposition>
+        <proposition>Pêche</proposition>
+        <proposition>Utilisation des sols</proposition>
+        <bonne_reponse>Combustion fossile</bonne_reponse>
+        <explication>La combustion de pétrole, charbon et gaz naturel libère de grandes quantités de CO₂, principal responsable du réchauffement climatique.</explication>
+    </question>
+
+    <question>
+        <id>13</id>
+        <theme>Climat</theme>
+        <contenu>Comment appelle-t-on l'augmentation progressive de la température moyenne de la Terre ?</contenu>
+        <proposition>Effet solaire</proposition>
+        <proposition>Réchauffement urbain</proposition>
+        <proposition>Variation climatique</proposition>
+        <bonne_reponse>Réchauffement climatique</bonne_reponse>
+        <explication>Le réchauffement climatique désigne l'augmentation de la température moyenne de la Terre, causée principalement par les émissions de gaz à effet de serre.</explication>
+    </question>
+
+    <question>
+        <id>14</id>
+        <theme>Climat</theme>
+        <contenu>Quelle région du monde se réchauffe environ deux fois plus vite que le reste de la planète ?</contenu>
+        <proposition>Europe</proposition>
+        <proposition>Australie</proposition>
+        <proposition>Afrique</proposition>
+        <bonne_reponse>Arctique</bonne_reponse>
+        <explication>La région arctique se réchauffe plus rapidement en raison d'un effet amplificateur de fonte des glaces, libérant plus d'énergie thermique.</explication>
+    </question>
+
+    <question>
+        <id>15</id>
+        <theme>Climat</theme>
+        <contenu>Quel phénomène climatique extrême est de plus en plus fréquent avec le réchauffement climatique ?</contenu>
+        <proposition>Éruptions volcaniques</proposition>
+        <proposition>Sécheresses</proposition>
+        <proposition>Éclipses solaires</proposition>
+        <bonne_reponse>Canicules</bonne_reponse>
+        <explication>Les canicules sont plus fréquentes et intenses à cause du réchauffement climatique, augmentant les risques pour la santé humaine.</explication>
+    </question>
+
+    <question>
+        <id>16</id>
+        <theme>Climat</theme>
+        <contenu>Quel secteur économique est responsable d'environ 25 % des émissions mondiales de gaz à effet de serre ?</contenu>
+        <proposition>Textile</proposition>
+        <proposition>Transport</proposition>
+        <proposition>Construction</proposition>
+        <bonne_reponse>Agriculture</bonne_reponse>
+        <explication>Le secteur agricole émet des gaz comme le méthane (des animaux d’élevage) et le protoxyde d'azote (des engrais), contribuant au réchauffement.</explication>
+    </question>
+
+    <question>
+        <id>17</id>
+        <theme>Climat</theme>
+        <contenu>Quel phénomène climatique est accentué par l'urbanisation excessive ?</contenu>
+        <proposition>Effet de serre</proposition>
+        <proposition>Pluie acide</proposition>
+        <proposition>Couche d'ozone</proposition>
+        <bonne_reponse>Îlot de chaleur</bonne_reponse>
+        <explication>Les villes créent des îlots de chaleur en raison des matériaux qui absorbent la chaleur et de l'absence de végétation, augmentant localement la température.</explication>
+    </question>
+
+    <question>
+        <id>18</id>
+        <theme>Climat</theme>
+        <contenu>Quel gaz à effet de serre est principalement émis par l'élevage de bétail ?</contenu>
+        <proposition>Ozone</proposition>
+        <proposition>CO₂</proposition>
+        <proposition>H₂O</proposition>
+        <bonne_reponse>Méthane</bonne_reponse>
+        <explication>Le méthane (CH₄), émis par la digestion des ruminants, est un gaz à effet de serre puissant qui contribue au réchauffement climatique.</explication>
+    </question>
+
+    <question>
+        <id>19</id>
+        <theme>Climat</theme>
+        <contenu>Quel changement affecte directement les océans à cause de l'augmentation de CO₂ atmosphérique ?</contenu>
+        <proposition>Refroidissement</proposition>
+        <proposition>Fonte des glaciers</proposition>
+        <proposition>Érosion des plages</proposition>
+        <bonne_reponse>Acidification</bonne_reponse>
+        <explication>Le CO₂ absorbé par les océans augmente leur acidité, affectant la vie marine et menaçant les récifs coralliens.</explication>
+    </question>
+
+    <question>
+        <id>20</id>
+        <theme>Climat</theme>
+        <contenu>Quel organisme international publie des rapports sur les changements climatiques ?</contenu>
+        <proposition>OMS</proposition>
+        <proposition>OMC</proposition>
+        <proposition>ONU Environnement</proposition>
+        <bonne_reponse>GIEC</bonne_reponse>
+        <explication>Le GIEC (Groupe d'experts intergouvernemental sur l'évolution du climat) publie des rapports sur l'état du climat, les causes et les impacts du changement climatique.</explication>
+    </question>
+
+    <question>
+        <id>21</id>
+        <theme>Biodiversité</theme>
+        <contenu>Quel est le principal facteur de la perte de biodiversité à l'échelle mondiale ?</contenu>
+        <proposition>Tempêtes</proposition>
+        <proposition>Éruptions volcaniques</proposition>
+        <proposition>Érosion naturelle</proposition>
+        <bonne_reponse>Activité humaine</bonne_reponse>
+        <explication>La destruction des habitats par les activités humaines, comme la déforestation et l’urbanisation, est la principale cause de perte de biodiversité.</explication>
+    </question>
+
+    <question>
+        <id>22</id>
+        <theme>Biodiversité</theme>
+        <contenu>Quel type d’écosystème est essentiel pour le stockage du carbone atmosphérique ?</contenu>
+        <proposition>Déserts</proposition>
+        <proposition>Prairies</proposition>
+        <proposition>Montagnes</proposition>
+        <bonne_reponse>Forêts</bonne_reponse>
+        <explication>Les forêts absorbent et stockent le dioxyde de carbone, contribuant à réguler les niveaux de CO₂ et à atténuer le réchauffement climatique.</explication>
+    </question>
+
+    <question>
+        <id>23</id>
+        <theme>Biodiversité</theme>
+        <contenu>Quel groupe d’espèces est souvent un indicateur de la santé des écosystèmes aquatiques ?</contenu>
+        <proposition>Oiseaux</proposition>
+        <proposition>Reptiles</proposition>
+        <proposition>Amphibiens</proposition>
+        <bonne_reponse>Poissons</bonne_reponse>
+        <explication>Les poissons sont sensibles aux changements de qualité de l'eau et de température, servant ainsi d’indicateurs de la santé des écosystèmes aquatiques.</explication>
+    </question>
+
+    <question>
+        <id>24</id>
+        <theme>Biodiversité</theme>
+        <contenu>Quel phénomène environnemental peut menacer la biodiversité des récifs coralliens ?</contenu>
+        <proposition>Érosion des plages</proposition>
+        <proposition>Marées</proposition>
+        <proposition>Vent</proposition>
+        <bonne_reponse>Blanchissement</bonne_reponse>
+        <explication>Le blanchissement des coraux, causé par le réchauffement des océans, tue les coraux et menace ainsi de nombreuses espèces qui dépendent de ces récifs.</explication>
+    </question>
+
+    <question>
+        <id>25</id>
+        <theme>Biodiversité</theme>
+        <contenu>Quelle est l'importance des zones humides pour la biodiversité ?</contenu>
+        <proposition>Favorisent la sécheresse</proposition>
+        <proposition>Augmentent la salinité</proposition>
+        <proposition>Réduisent la biodiversité</proposition>
+        <bonne_reponse>Soutiennent la biodiversité</bonne_reponse>
+        <explication>Les zones humides abritent une grande diversité d'espèces et fournissent des services écologiques essentiels, comme la filtration de l'eau et la protection contre les inondations.</explication>
+    </question>
+
+    <question>
+        <id>26</id>
+        <theme>Biodiversité</theme>
+        <contenu>Quel type de plante contribue particulièrement à maintenir les sols et prévenir l’érosion ?</contenu>
+        <proposition>Plantes aquatiques</proposition>
+        <proposition>Fleurs</proposition>
+        <proposition>Algues</proposition>
+        <bonne_reponse>Arbres</bonne_reponse>
+        <explication>Les arbres, grâce à leurs racines, stabilisent les sols et préviennent l'érosion, contribuant à un environnement plus stable pour diverses espèces.</explication>
+    </question>
+
+    <question>
+        <id>27</id>
+        <theme>Biodiversité</theme>
+        <contenu>Quel rôle jouent les abeilles dans la biodiversité ?</contenu>
+        <proposition>Production de miel</proposition>
+        <proposition>Déforestation</proposition>
+        <proposition>Rejet de CO₂</proposition>
+        <bonne_reponse>Pollinisation</bonne_reponse>
+        <explication>Les abeilles pollinisent les plantes, ce qui est essentiel pour la reproduction de nombreuses espèces végétales et la production alimentaire.</explication>
+    </question>
+
+    <question>
+        <id>28</id>
+        <theme>Biodiversité</theme>
+        <contenu>Quel type de biodiversité désigne la diversité génétique au sein d'une même espèce ?</contenu>
+        <proposition>Biodiversité écosystémique</proposition>
+        <proposition>Biodiversité interspécifique</proposition>
+        <proposition>Biodiversité locale</proposition>
+        <bonne_reponse>Biodiversité intraspécifique</bonne_reponse>
+        <explication>La biodiversité intraspécifique désigne la variété génétique au sein d'une seule espèce, ce qui permet une meilleure adaptation aux changements environnementaux.</explication>
+    </question>
+
+    <question>
+        <id>29</id>
+        <theme>Biodiversité</theme>
+        <contenu>Quel est l’impact de la pollution plastique sur la biodiversité marine ?</contenu>
+        <proposition>Augmente la fertilité</proposition>
+        <proposition>Améliore la santé des coraux</proposition>
+        <proposition>Renforce les écosystèmes</proposition>
+        <bonne_reponse>Menace les espèces</bonne_reponse>
+        <explication>La pollution plastique entraîne la mort de nombreuses espèces marines, qui ingèrent ou s'emmêlent dans les débris plastiques, perturbant l'équilibre écologique.</explication>
+    </question>
+
+    <question>
+        <id>30</id>
+        <theme>Biodiversité</theme>
+        <contenu>Quel est le rôle des espèces dites "clés de voûte" dans un écosystème ?</contenu>
+        <proposition>Répandent des maladies</proposition>
+        <proposition>Accélèrent l'extinction</proposition>
+        <proposition>Limitent la photosynthèse</proposition>
+        <bonne_reponse>Maintiennent l'équilibre</bonne_reponse>
+        <explication>Les espèces clés de voûte ont un impact disproportionné sur leur environnement, aidant à maintenir la structure et la diversité de l'écosystème.</explication>
+    </question>
+
+    <question>
+        <id>31</id>
+        <theme>Énergie</theme>
+        <contenu>Quelle source d’énergie est la plus utilisée dans le monde aujourd'hui ?</contenu>
+        <proposition>Énergie éolienne</proposition>
+        <proposition>Énergie solaire</proposition>
+        <proposition>Énergie hydroélectrique</proposition>
+        <bonne_reponse>Énergie fossile</bonne_reponse>
+        <explication>Les énergies fossiles, comme le pétrole, le charbon et le gaz naturel, dominent encore la production d'énergie mondiale, malgré leurs impacts négatifs sur l'environnement.</explication>
+    </question>
+
+    <question>
+        <id>32</id>
+        <theme>Énergie</theme>
+        <contenu>Quel est le principal gaz à effet de serre émis par la combustion de combustibles fossiles ?</contenu>
+        <proposition>Oxygène</proposition>
+        <proposition>Méthane</proposition>
+        <proposition>Ozone</proposition>
+        <bonne_reponse>CO₂</bonne_reponse>
+        <explication>La combustion des combustibles fossiles libère du dioxyde de carbone (CO₂), principal responsable de l'augmentation de l'effet de serre et du réchauffement climatique.</explication>
+    </question>
+
+    <question>
+        <id>33</id>
+        <theme>Énergie</theme>
+        <contenu>Quelle source d’énergie est considérée comme renouvelable ?</contenu>
+        <proposition>Pétrole</proposition>
+        <proposition>Gaz naturel</proposition>
+        <proposition>Charbon</proposition>
+        <bonne_reponse>Énergie solaire</bonne_reponse>
+        <explication>Les sources d'énergie renouvelables, comme l'énergie solaire, sont inépuisables et n'épuisent pas les ressources de la Terre, contrairement aux énergies fossiles.</explication>
+    </question>
+
+    <question>
+        <id>34</id>
+        <theme>Énergie</theme>
+        <contenu>Quel type d’énergie produit des déchets radioactifs difficiles à gérer ?</contenu>
+        <proposition>Énergie solaire</proposition>
+        <proposition>Énergie éolienne</proposition>
+        <proposition>Énergie géothermique</proposition>
+        <bonne_reponse>Énergie nucléaire</bonne_reponse>
+        <explication>L'énergie nucléaire produit des déchets radioactifs, dont la gestion et le stockage posent des défis environnementaux de long terme.</explication>
+    </question>
+
+    <question>
+        <id>35</id>
+        <theme>Énergie</theme>
+        <contenu>Quelle technologie permet de capter l’énergie produite par le vent ?</contenu>
+        <proposition>Panneaux solaires</proposition>
+        <proposition>Turbines hydrauliques</proposition>
+        <proposition>Cellules photovoltaïques</proposition>
+        <bonne_reponse>Éoliennes</bonne_reponse>
+        <explication>Les éoliennes convertissent l'énergie cinétique du vent en énergie électrique, une source renouvelable et propre.</explication>
+    </question>
+
+    <question>
+        <id>36</id>
+        <theme>Énergie</theme>
+        <contenu>Quel est l’impact principal des barrages hydroélectriques sur l’environnement ?</contenu>
+        <proposition>Réduction de la pollution atmosphérique</proposition>
+        <proposition>Augmentation de la biodiversité</proposition>
+        <proposition>Régénération des forêts</proposition>
+        <bonne_reponse>Modification des écosystèmes</bonne_reponse>
+        <explication>Les barrages modifient les cours d'eau et peuvent altérer les habitats aquatiques et les écosystèmes, impactant la faune et la flore locale.</explication>
+    </question>
+
+    <question>
+        <id>37</id>
+        <theme>Énergie</theme>
+        <contenu>Quelle énergie utilise la chaleur naturelle de la Terre pour produire de l’électricité ?</contenu>
+        <proposition>Énergie solaire</proposition>
+        <proposition>Énergie hydraulique</proposition>
+        <proposition>Énergie éolienne</proposition>
+        <bonne_reponse>Énergie géothermique</bonne_reponse>
+        <explication>L'énergie géothermique utilise la chaleur stockée dans le sous-sol terrestre, une source renouvelable et souvent neutre en carbone.</explication>
+    </question>
+
+    <question>
+        <id>38</id>
+        <theme>Énergie</theme>
+        <contenu>Quel secteur consomme le plus d’énergie dans le monde ?</contenu>
+        <proposition>Éducation</proposition>
+        <proposition>Agriculture</proposition>
+        <proposition>Transport</proposition>
+        <bonne_reponse>Industrie</bonne_reponse>
+        <explication>Le secteur industriel consomme plus d'énergie que tout autre secteur, en raison de sa forte dépendance aux processus énergivores.</explication>
+    </question>
+
+    <question>
+        <id>39</id>
+        <theme>Énergie</theme>
+        <contenu>Quelle source d’énergie est utilisée pour alimenter les panneaux photovoltaïques ?</contenu>
+        <proposition>Vent</proposition>
+        <proposition>Vapeur</proposition>
+        <proposition>Chaleur de la Terre</proposition>
+        <bonne_reponse>Lumière solaire</bonne_reponse>
+        <explication>Les panneaux photovoltaïques transforment la lumière solaire en électricité grâce à des cellules spéciales, offrant une énergie renouvelable et propre.</explication>
+    </question>
+
+    <question>
+        <id>40</id>
+        <theme>Énergie</theme>
+        <contenu>Quel est l’inconvénient principal de l’énergie éolienne ?</contenu>
+        <proposition>Émissions élevées de CO₂</proposition>
+        <proposition>Pollution des sols</proposition>
+        <proposition>Coûts de fonctionnement élevés</proposition>
+        <bonne_reponse>Intermittence</bonne_reponse>
+        <explication>L'énergie éolienne dépend du vent, ce qui signifie qu’elle est intermittente et nécessite des solutions de stockage ou de soutien d'autres sources d’énergie.</explication>
+    </question>
+
+    <question>
+        <id>41</id>
+        <theme>Pollution</theme>
+        <contenu>Quel est le principal effet des polluants organiques persistants (POP) dans les écosystèmes ?</contenu>
+        <proposition>Ils disparaissent rapidement</proposition>
+        <proposition>Ils améliorent la fertilité des sols</proposition>
+        <proposition>Ils se dégradent en quelques années</proposition>
+        <bonne_reponse>Ils s'accumulent dans la chaîne alimentaire</bonne_reponse>
+        <explication>Les POP, tels que les PCB et les dioxines, persistent dans l'environnement et s'accumulent dans les tissus des organismes, montant dans la chaîne alimentaire.</explication>
+    </question>
+
+    <question>
+        <id>42</id>
+        <theme>Pollution</theme>
+        <contenu>Quel type de pollution est le plus susceptible de causer des zones mortes dans les océans ?</contenu>
+        <proposition>Pollution plastique</proposition>
+        <proposition>Pollution thermique</proposition>
+        <proposition>Pollution radioactive</proposition>
+        <bonne_reponse>Pollution par les nutriments</bonne_reponse>
+        <explication>Les excès de nutriments, surtout l'azote et le phosphore, provoquent une eutrophisation, qui entraîne des zones mortes par appauvrissement en oxygène.</explication>
+    </question>
+
+    <question>
+        <id>43</id>
+        <theme>Pollution</theme>
+        <contenu>Quel métal lourd est principalement émis par les centrales au charbon et pose des risques graves pour la santé humaine ?</contenu>
+        <proposition>Nickel</proposition>
+        <proposition>Arsenic</proposition>
+        <proposition>Plomb</proposition>
+        <bonne_reponse>Mercure</bonne_reponse>
+        <explication>Les centrales au charbon libèrent du mercure dans l'atmosphère, qui peut contaminer les écosystèmes et affecter la santé humaine via la chaîne alimentaire.</explication>
+    </question>
+
+    <question>
+        <id>44</id>
+        <theme>Pollution</theme>
+        <contenu>Quel type de pollution sonore a un impact direct sur les mammifères marins ?</contenu>
+        <proposition>Trafic routier</proposition>
+        <proposition>Machines agricoles</proposition>
+        <proposition>Concerts en plein air</proposition>
+        <bonne_reponse>Sondage sismique</bonne_reponse>
+        <explication>Les sondages sismiques sous-marins, utilisés pour l'exploration pétrolière, perturbent les communications et les comportements des mammifères marins.</explication>
+    </question>
+
+    <question>
+        <id>45</id>
+        <theme>Pollution</theme>
+        <contenu>Quel produit chimique utilisé dans les plastiques peut perturber le système endocrinien humain ?</contenu>
+        <proposition>Phtalates</proposition>
+        <proposition>Polypropylène</proposition>
+        <proposition>Styrène</proposition>
+        <bonne_reponse>Bisphénol A (BPA)</bonne_reponse>
+        <explication>Le BPA, présent dans certains plastiques, est un perturbateur endocrinien qui peut affecter la reproduction et le développement humain.</explication>
+    </question>
+
+    <question>
+        <id>46</id>
+        <theme>Pollution</theme>
+        <contenu>Quel composé chimique est souvent à l’origine de pluies acides ?</contenu>
+        <proposition>CO₂</proposition>
+        <proposition>O₂</proposition>
+        <proposition>NH₃</proposition>
+        <bonne_reponse>SO₂</bonne_reponse>
+        <explication>Le dioxyde de soufre (SO₂) et les oxydes d'azote réagissent avec l'eau dans l'atmosphère, produisant des pluies acides qui endommagent les écosystèmes.</explication>
+    </question>
+
+    <question>
+        <id>47</id>
+        <theme>Pollution</theme>
+        <contenu>Quel composant des gaz d'échappement des voitures est un polluant majeur des villes et un irritant respiratoire ?</contenu>
+        <proposition>CO₂</proposition>
+        <proposition>Vapeur d'eau</proposition>
+        <proposition>Ozone</proposition>
+        <bonne_reponse>NO₂</bonne_reponse>
+        <explication>Le dioxyde d'azote (NO₂) contribue à la pollution de l'air urbain et peut provoquer des troubles respiratoires.</explication>
+    </question>
+
+    <question>
+        <id>48</id>
+        <theme>Pollution</theme>
+        <contenu>Quel effet a le plastique dans l'océan sur les espèces marines ?</contenu>
+        <proposition>Amélioration de la nourriture disponible</proposition>
+        <proposition>Restauration des récifs</proposition>
+        <proposition>Protection des coraux</proposition>
+        <bonne_reponse>Asphyxie et ingestion</bonne_reponse>
+        <explication>Les plastiques flottants sont ingérés ou entraînent l'asphyxie des espèces marines, réduisant leur taux de survie.</explication>
+    </question>
+
+    <question>
+        <id>49</id>
+        <theme>Pollution</theme>
+        <contenu>Quelle activité humaine est une source majeure de microplastiques dans l’environnement ?</contenu>
+        <proposition>Récolte forestière</proposition>
+        <proposition>Élevage de bétail</proposition>
+        <proposition>Pêche</proposition>
+        <bonne_reponse>Lavage des vêtements synthétiques</bonne_reponse>
+        <explication>Les fibres synthétiques relâchées lors du lavage se retrouvent dans les eaux usées et contribuent à la pollution par les microplastiques.</explication>
+    </question>
+
+    <question>
+        <id>50</id>
+        <theme>Pollution</theme>
+        <contenu>Quel type de pollution lumineuse affecte les cycles naturels de nombreux animaux nocturnes ?</contenu>
+        <proposition>Lumière infrarouge</proposition>
+        <proposition>Lumière solaire</proposition>
+        <proposition>Lumière thermique</proposition>
+        <bonne_reponse>Éclairage artificiel nocturne</bonne_reponse>
+        <explication>Les éclairages artificiels perturbent les cycles d'activité, de reproduction et de migration des animaux nocturnes.</explication>
+    </question>
+
+    <question>
+        <id>51</id>
+        <theme>Climat</theme>
+        <contenu>Quelle rétroaction climatique amplifie le réchauffement en réduisant la surface de glace réfléchissante sur Terre ?</contenu>
+        <proposition>Augmentation de la couverture nuageuse</proposition>
+        <proposition>Diminution des précipitations</proposition>
+        <proposition>Émissions accrues de CO₂</proposition>
+        <bonne_reponse>Effet albédo</bonne_reponse>
+        <explication>La réduction de la glace diminue l'albédo terrestre, ce qui amplifie le réchauffement car plus de chaleur est absorbée par les surfaces sombres.</explication>
+    </question>
+
+    <question>
+        <id>52</id>
+        <theme>Climat</theme>
+        <contenu>Quel est le principal gaz responsable de l'acidification des océans ?</contenu>
+        <proposition>Méthane</proposition>
+        <proposition>Dioxyde de soufre</proposition>
+        <proposition>Ozone</proposition>
+        <bonne_reponse>CO₂</bonne_reponse>
+        <explication>Le dioxyde de carbone (CO₂) absorbé par les océans forme de l'acide carbonique, entraînant une baisse du pH et l'acidification des eaux.</explication>
+    </question>
+
+    <question>
+        <id>53</id>
+        <theme>Climat</theme>
+        <contenu>Quel phénomène climatique amplifie les vagues de chaleur dans les zones urbaines ?</contenu>
+        <proposition>Courant-jet</proposition>
+        <proposition>El Niño</proposition>
+        <proposition>Effet de serre</proposition>
+        <bonne_reponse>Îlot de chaleur urbain</bonne_reponse>
+        <explication>Les îlots de chaleur urbains retiennent la chaleur en raison des surfaces artificielles et de la densité de constructions, exacerbant les vagues de chaleur.</explication>
+    </question>
+
+    <question>
+        <id>54</id>
+        <theme>Climat</theme>
+        <contenu>Quel pays est le plus grand émetteur de gaz à effet de serre par habitant en 2020 ?</contenu>
+        <proposition>Chine</proposition>
+        <proposition>Inde</proposition>
+        <proposition>États-Unis</proposition>
+        <bonne_reponse>Qatar</bonne_reponse>
+        <explication>En 2020, le Qatar avait les émissions de CO₂ par habitant les plus élevées en raison de son industrie pétrolière et de la forte consommation d'énergie.</explication>
+    </question>
+
+    <question>
+        <id>55</id>
+        <theme>Climat</theme>
+        <contenu>Quel processus rend la libération de méthane des pergélisols particulièrement dangereuse pour le climat ?</contenu>
+        <proposition>Réchauffement des océans</proposition>
+        <proposition>Évapotranspiration accrue</proposition>
+        <proposition>Dissolution des minéraux</proposition>
+        <bonne_reponse>Rétroaction positive</bonne_reponse>
+        <explication>La fonte du pergélisol libère du méthane, un puissant gaz à effet de serre, renforçant le réchauffement et augmentant la fonte, créant une rétroaction positive.</explication>
+    </question>
+
+    <question>
+        <id>56</id>
+        <theme>Climat</theme>
+        <contenu>Qu’est-ce que le seuil de bascule climatique dans un écosystème ?</contenu>
+        <proposition>Un pic temporaire de température</proposition>
+        <proposition>Une baisse temporaire des précipitations</proposition>
+        <proposition>Un ralentissement de la croissance des végétaux</proposition>
+        <bonne_reponse>Un point où des changements irréversibles se produisent</bonne_reponse>
+        <explication>Un seuil de bascule est un point critique au-delà duquel des changements climatiques provoquent des modifications irréversibles dans les écosystèmes.</explication>
+    </question>
+
+    <question>
+        <id>57</id>
+        <theme>Climat</theme>
+        <contenu>Quel phénomène océanique affecte les schémas climatiques mondiaux en alternant les phases de réchauffement et de refroidissement dans le Pacifique ?</contenu>
+        <proposition>Effet albédo</proposition>
+        <proposition>Changement de phase polaire</proposition>
+        <proposition>Acidification des océans</proposition>
+        <bonne_reponse>El Niño/La Niña</bonne_reponse>
+        <explication>Les phases d'El Niño et de La Niña influencent les températures globales, les précipitations et les schémas météorologiques à travers le monde.</explication>
+    </question>
+
+    <question>
+        <id>58</id>
+        <theme>Climat</theme>
+        <contenu>Comment la déforestation contribue-t-elle au changement climatique ?</contenu>
+        <proposition>En augmentant l'humidité des sols</proposition>
+        <proposition>En augmentant la capacité d'absorption de CO₂</proposition>
+        <proposition>En augmentant les stocks de carbone dans les plantes</proposition>
+        <bonne_reponse>En réduisant le stockage du carbone et augmentant le CO₂ atmosphérique</bonne_reponse>
+        <explication>Les forêts stockent le carbone, et la déforestation libère ce carbone dans l'atmosphère, augmentant ainsi le CO₂ et contribuant au réchauffement.</explication>
+    </question>
+
+    <question>
+        <id>59</id>
+        <theme>Climat</theme>
+        <contenu>Quel est le rôle du permafrost dans le bilan carbone mondial ?</contenu>
+        <proposition>Réduit les émissions de méthane</proposition>
+        <proposition>Accélère la photosynthèse</proposition>
+        <proposition>Diminue l'acidité des océans</proposition>
+        <bonne_reponse>Stocke de grandes quantités de carbone</bonne_reponse>
+        <explication>Le permafrost emprisonne d'énormes quantités de carbone, et sa fonte due au réchauffement libère du méthane et du CO₂ dans l'atmosphère.</explication>
+    </question>
+
+    <question>
+        <id>60</id>
+        <theme>Climat</theme>
+        <contenu>Quel est l’effet principal du réchauffement climatique sur la stratification des océans ?</contenu>
+        <proposition>Amélioration de l'oxygénation</proposition>
+        <proposition>Augmentation des niveaux de sel</proposition>
+        <proposition>Augmentation de la biodiversité marine</proposition>
+        <bonne_reponse>Augmentation de la stratification thermique</bonne_reponse>
+        <explication>Le réchauffement climatique renforce la stratification thermique, limitant le mélange des eaux et réduisant l’oxygénation des couches profondes.</explication>
+    </question>
+
+    <question>
+        <id>61</id>
+        <theme>Biodiversité</theme>
+        <contenu>Quel pourcentage approximatif des espèces de la planète sont actuellement menacées d'extinction, selon l'Union Internationale pour la Conservation de la Nature (UICN) ?</contenu>
+        <proposition>5%</proposition>
+        <proposition>15%</proposition>
+        <proposition>25%</proposition>
+        <bonne_reponse>30%</bonne_reponse>
+        <explication>Environ 30 % des espèces évaluées par l'UICN sont menacées d'extinction, en raison de facteurs comme la perte d'habitat, la pollution et le changement climatique.</explication>
+    </question>
+
+    <question>
+        <id>62</id>
+        <theme>Biodiversité</theme>
+        <contenu>Quel concept écologique décrit la capacité d'un écosystème à résister aux perturbations et à se rétablir après des changements ?</contenu>
+        <proposition>Richesse spécifique</proposition>
+        <proposition>Biomasse</proposition>
+        <proposition>Rendement écologique</proposition>
+        <bonne_reponse>Résilience</bonne_reponse>
+        <explication>La résilience écologique désigne la capacité d'un écosystème à absorber des perturbations et à revenir à un état d'équilibre.</explication>
+    </question>
+
+    <question>
+        <id>63</id>
+        <theme>Biodiversité</theme>
+        <contenu>Quel est l'impact principal des espèces invasives sur la biodiversité locale ?</contenu>
+        <proposition>Amélioration de la diversité des espèces</proposition>
+        <proposition>Stabilisation des populations natives</proposition>
+        <proposition>Augmentation de la biodiversité</proposition>
+        <bonne_reponse>Compétition et extinction d'espèces natives</bonne_reponse>
+        <explication>Les espèces invasives supplantent souvent les espèces natives en raison de l'absence de prédateurs, causant des déséquilibres et la perte de biodiversité locale.</explication>
+    </question>
+
+    <question>
+        <id>64</id>
+        <theme>Biodiversité</theme>
+        <contenu>Quelle est la principale raison de la destruction des forêts tropicales, qui sont des réservoirs majeurs de biodiversité ?</contenu>
+        <proposition>Extraction minière</proposition>
+        <proposition>Urbanisation</proposition>
+        <proposition>Pêche excessive</proposition>
+        <bonne_reponse>Expansion agricole</bonne_reponse>
+        <explication>L'agriculture, notamment pour la culture du soja et de l'huile de palme, est le principal moteur de la déforestation dans les régions tropicales, menaçant la biodiversité.</explication>
+    </question>
+
+    <question>
+        <id>65</id>
+        <theme>Biodiversité</theme>
+        <contenu>Quelle technique est utilisée pour estimer la richesse des espèces dans un écosystème sans observer directement chaque espèce ?</contenu>
+        <proposition>Méthode de capture directe</proposition>
+        <proposition>Analyse du sol</proposition>
+        <proposition>Étude de la biomasse</proposition>
+        <bonne_reponse>Échantillonnage par transects</bonne_reponse>
+        <explication>Le transect consiste à observer les espèces le long d'une ligne dans un écosystème pour estimer la richesse spécifique sans avoir besoin de tout inventorier.</explication>
+    </question>
+
+    <question>
+        <id>66</id>
+        <theme>Biodiversité</theme>
+        <contenu>Quel est l'impact principal du changement climatique sur la répartition des espèces ?</contenu>
+        <proposition>Les espèces se déplacent vers les latitudes inférieures</proposition>
+        <proposition>Les espèces aquatiques colonisent les terres</proposition>
+        <proposition>Les habitats des espèces deviennent plus petits</proposition>
+        <bonne_reponse>Les espèces migrent vers des latitudes et altitudes plus élevées</bonne_reponse>
+        <explication>En réponse aux changements de température, de nombreuses espèces migrent vers des latitudes et altitudes plus élevées pour trouver des conditions plus adaptées.</explication>
+    </question>
+
+    <question>
+        <id>67</id>
+        <theme>Biodiversité</theme>
+        <contenu>Quelle est la fonction principale des zones protégées dans la conservation de la biodiversité ?</contenu>
+        <proposition>Réduire les émissions de gaz à effet de serre</proposition>
+        <proposition>Augmenter la production agricole</proposition>
+        <proposition>Favoriser l'exploitation minière durable</proposition>
+        <bonne_reponse>Préserver les habitats naturels</bonne_reponse>
+        <explication>Les zones protégées, comme les parcs nationaux, sont conçues pour préserver les habitats naturels et protéger les espèces des activités humaines destructrices.</explication>
+    </question>
+
+    <question>
+        <id>68</id>
+        <theme>Biodiversité</theme>
+        <contenu>Quel rôle joue la diversité génétique dans la survie des populations ?</contenu>
+        <proposition>Augmente les taux de croissance rapide</proposition>
+        <proposition>Diminue les interactions interspécifiques</proposition>
+        <proposition>Réduit les exigences alimentaires</proposition>
+        <bonne_reponse>Améliore la résistance aux maladies et aux changements environnementaux</bonne_reponse>
+        <explication>Une diversité génétique élevée permet aux populations d'être plus résistantes aux maladies et de mieux s'adapter aux changements environnementaux.</explication>
+    </question>
+
+    <question>
+        <id>69</id>
+        <theme>Biodiversité</theme>
+        <contenu>Qu'est-ce qu'une « espèce parapluie » dans la conservation de la biodiversité ?</contenu>
+        <proposition>Une espèce qui vit sous terre</proposition>
+        <proposition>Une espèce très migratrice</proposition>
+        <proposition>Une espèce sans prédateurs</proposition>
+        <bonne_reponse>Une espèce dont la protection aide d'autres espèces</bonne_reponse>
+        <explication>Les espèces parapluies, comme le tigre, sont protégées pour assurer la conservation de nombreux autres organismes qui partagent leur habitat.</explication>
+    </question>
+
+    <question>
+        <id>70</id>
+        <theme>Biodiversité</theme>
+        <contenu>Quel indicateur de la biodiversité évalue la stabilité d'un écosystème en fonction des interactions entre ses espèces ?</contenu>
+        <proposition>Diversité alpha</proposition>
+        <proposition>Diversité génétique</proposition>
+        <proposition>Biomasse totale</proposition>
+        <bonne_reponse>Réseau trophique</bonne_reponse>
+        <explication>Un réseau trophique complexe et bien interconnecté indique un écosystème stable, où chaque espèce joue un rôle dans le maintien de l'équilibre.</explication>
+    </question>
+
+    <question>
+        <id>71</id>
+        <theme>Énergie</theme>
+        <contenu>Quel composant d'une centrale nucléaire contrôle la vitesse de la réaction en chaîne ?</contenu>
+        <proposition>Condenseur</proposition>
+        <proposition>Générateur</proposition>
+        <proposition>Compresseur</proposition>
+        <bonne_reponse>Barres de contrôle</bonne_reponse>
+        <explication>Les barres de contrôle, souvent en cadmium ou bore, absorbent les neutrons pour ralentir ou stopper la réaction en chaîne nucléaire.</explication>
+    </question>
+
+    <question>
+        <id>72</id>
+        <theme>Énergie</theme>
+        <contenu>Quelle est la source d'énergie renouvelable la plus intensément utilisée dans le monde pour la production d'électricité ?</contenu>
+        <proposition>Solaire</proposition>
+        <proposition>Géothermique</proposition>
+        <proposition>Éolienne</proposition>
+        <bonne_reponse>Hydroélectricité</bonne_reponse>
+        <explication>L’hydroélectricité est la source renouvelable la plus utilisée mondialement, fournissant environ 16 % de l'électricité mondiale.</explication>
+    </question>
+
+    <question>
+        <id>73</id>
+        <theme>Énergie</theme>
+        <contenu>Quel type de réacteur nucléaire utilise de l’uranium appauvri ou du plutonium pour générer plus de combustible qu’il n’en consomme ?</contenu>
+        <proposition>Réacteur à eau légère</proposition>
+        <proposition>Réacteur à fusion</proposition>
+        <proposition>Réacteur à fission rapide</proposition>
+        <bonne_reponse>Réacteur surgénérateur</bonne_reponse>
+        <explication>Les réacteurs surgénérateurs créent plus de combustible fissile en transformant de l'uranium appauvri ou du thorium en plutonium ou uranium-233.</explication>
+    </question>
+
+    <question>
+        <id>74</id>
+        <theme>Énergie</theme>
+        <contenu>Quel procédé permet d’augmenter l’efficacité des panneaux solaires en utilisant la lumière à différentes longueurs d'onde ?</contenu>
+        <proposition>Compression thermique</proposition>
+        <proposition>Stockage par batterie</proposition>
+        <proposition>Transformation optique</proposition>
+        <bonne_reponse>Multijonction</bonne_reponse>
+        <explication>Les cellules solaires à multijonction utilisent plusieurs couches de matériaux pour absorber différentes longueurs d'onde, améliorant ainsi l'efficacité.</explication>
+    </question>
+
+    <question>
+        <id>75</id>
+        <theme>Énergie</theme>
+        <contenu>Quelle est la principale limite de l'énergie marémotrice pour la production électrique ?</contenu>
+        <proposition>Risque de pénurie de carburant</proposition>
+        <proposition>Faible efficacité</proposition>
+        <proposition>Disponibilité du vent</proposition>
+        <bonne_reponse>Coût élevé des infrastructures et rareté des sites adaptés</bonne_reponse>
+        <explication>L'énergie marémotrice nécessite des installations coûteuses et n'est viable qu'à proximité de côtes spécifiques avec de fortes marées.</explication>
+    </question>
+
+    <question>
+        <id>76</id>
+        <theme>Énergie</theme>
+        <contenu>Quel gaz, outre le CO₂, est souvent émis lors de la production d'énergie à partir de combustibles fossiles et contribue au réchauffement climatique ?</contenu>
+        <proposition>Argon</proposition>
+        <proposition>Ozone</proposition>
+        <proposition>Radon</proposition>
+        <bonne_reponse>Méthane</bonne_reponse>
+        <explication>Le méthane, bien que moins présent que le CO₂, est un gaz à effet de serre puissant et est émis lors de l'extraction et du transport des combustibles fossiles.</explication>
+    </question>
+
+    <question>
+        <id>77</id>
+        <theme>Énergie</theme>
+        <contenu>Quel type de stockage d'énergie utilise la gravité pour produire de l'électricité, en pompant de l'eau vers une altitude supérieure ?</contenu>
+        <proposition>Stockage thermique</proposition>
+        <proposition>Compresseur pneumatique</proposition>
+        <proposition>Électrolyse</proposition>
+        <bonne_reponse>Pompage-turbinage</bonne_reponse>
+        <explication>Le pompage-turbinage stocke l’énergie potentielle sous forme d’eau élevée et la restitue en la faisant redescendre pour faire tourner des turbines.</explication>
+    </question>
+
+    <question>
+        <id>78</id>
+        <theme>Énergie</theme>
+        <contenu>Quel est l’inconvénient majeur des énergies renouvelables, comme l’éolien et le solaire, pour une utilisation à grande échelle ?</contenu>
+        <proposition>Production excessive de CO₂</proposition>
+        <proposition>Coût élevé de l'énergie</proposition>
+        <proposition>Besoin en maintenance élevé</proposition>
+        <bonne_reponse>Intermittence de la production</bonne_reponse>
+        <explication>Les énergies éolienne et solaire dépendent des conditions météorologiques, rendant leur production intermittente et nécessitant des solutions de stockage.</explication>
+    </question>
+
+    <question>
+        <id>79</id>
+        <theme>Énergie</theme>
+        <contenu>Dans un contexte de transition énergétique, quelle est la particularité de l’hydrogène vert ?</contenu>
+        <proposition>Production par réaction avec le méthane</proposition>
+        <proposition>Production à partir de gaz naturel</proposition>
+        <proposition>Utilisation de charbon comme source</proposition>
+        <bonne_reponse>Production par électrolyse avec des énergies renouvelables</bonne_reponse>
+        <explication>L'hydrogène vert est produit via l'électrolyse de l'eau utilisant des énergies renouvelables, contrairement à l'hydrogène "gris" dérivé du gaz naturel.</explication>
+    </question>
+
+    <question>
+        <id>80</id>
+        <theme>Énergie</theme>
+        <contenu>Quel est le rôle des supercondensateurs dans les systèmes de stockage d'énergie ?</contenu>
+        <proposition>Produire de l'énergie thermique</proposition>
+        <proposition>Transformer l'énergie cinétique en mécanique</proposition>
+        <proposition>Remplacer les batteries lithium-ion</proposition>
+        <bonne_reponse>Fournir une haute densité de puissance pour des décharges rapides</bonne_reponse>
+        <explication>Les supercondensateurs stockent et libèrent rapidement de grandes quantités d'énergie, mais sont moins adaptés pour un stockage à long terme.</explication>
+    </question>
+
+
+</data>
