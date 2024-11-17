@@ -6,7 +6,6 @@ let xmlhttp = new XMLHttpRequest();
             }
         };
         //xmlhttp.open("GET", "https://obiwan.univ-brest.fr/~e22309086/data/bdd.xml", true);
-        //xmlhttp.open("GET", "https://raw.githubusercontent.com/ArrowRBJ/DWC_project/main/bdd.xml", true);
         xmlhttp.open("GET", "data/bdd.xml", true);
 
         xmlhttp.send();
