@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Ma 1ère page HTML !</title>
+    <title>Quizz Environnement</title>
 
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" >
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,7 +9,15 @@
     <script src="js/scripts.js"></script>
 </head>
 <body>
-    <p>Acceuil</p>
+    <header>
+        <h3>Acceuil</h3>
+    </header>
+    <div class="container">
+        <a href="jeu.html" class="btn btn-outline-success btn-lg btn-block">Jouer</a>
+        <a href="apprendre.html" class="btn btn-outline-success btn-lg btn-block">Apprendre</a>
+        <a href="statistiques.html" class="btn btn-outline-success btn-lg btn-block">Mes stat.</a>
+    </div>
+    
     <button type="button" onclick="loadXMLDoc()">My Questions</button>
     <br><br>
     <table id="data" class="table"></table>
