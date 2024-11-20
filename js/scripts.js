@@ -11,12 +11,24 @@ let xmlhttp = new XMLHttpRequest();
         xmlhttp.send();
     }
 
+    let page = 1;
     function fetchData() {
         let i;
         let xmlDoc = xmlhttp.responseXML;
         let table = "<tr><th>Theme</th><th>Questions</th><th>Reponses</th></tr>";
         let x = xmlDoc.getElementsByTagName("question");
-        for (i = 0; i < x.length; i++) {
+
+         //Calculer nbPage    
+        nbPage = Math.ceil(50/15);
+        //Calculer startIndex et endIndex    
+        startIndex= 15*(page-1);
+        endIndex= startIndex+15-1;
+
+        if (endIndex>= x.length) {
+            endIndex= x.length -1;
+        }
+
+        for (i = startIndex; i <= endIndex; i++) {
             table += "<tr><td>" +
             x[i].getElementsByTagName("theme")[0].textContent +
             "</td><td>" +
@@ -31,6 +43,13 @@ let xmlhttp = new XMLHttpRequest();
             + "</tr>";            
         }
         document.getElementById("data").innerHTML = table;
+    }
+
+    function loadPage(pageNumber) {
+        //Mettre à jour la valeur de page en fonction de pageNumber
+        page = pageNumber
+        //Appeler la fonction fetchData 
+        fetchData()
     }
 
     function filterData(){
