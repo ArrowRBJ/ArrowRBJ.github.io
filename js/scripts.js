@@ -202,6 +202,7 @@ let correctAnswers = 0; // Nombre de bonnes réponses
         } else {
             alert("Faux ! La bonne réponse est : " + bonneReponse);  // Réponse incorrecte
         }
+        location.reload();
         //Objectif etait de verifier que la reponse est bonne
         //Au bout de 10 question repondues on met fin à la partie
         //LOCALSTORAGE
