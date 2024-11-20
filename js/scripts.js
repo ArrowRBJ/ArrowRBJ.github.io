@@ -12,24 +12,13 @@ let xmlhttp = new XMLHttpRequest();
         xmlhttp.send();
     }
 
-    let page = 1;
     function fetchData() {
         let i;
         let xmlDoc = xmlhttp.responseXML;
         let table = "<tr><th>Theme</th><th>Questions</th><th>Reponses</th></tr>";
         let x = xmlDoc.getElementsByTagName("question");
 
-         //Calculer nbPage    
-        nbPage = Math.ceil(50/10);
-        //Calculer startIndex et endIndex    
-        startIndex= 15*(page-1);
-        endIndex= startIndex+10-1;
-
-        if (endIndex>= x.length) {
-            endIndex= x.length -1;
-        }
-
-        for (i = startIndex; i <= endIndex; i++) {
+        for (i = 0; i < x.length; i++) {
             table += "<tr><td>" +
             x[i].getElementsByTagName("theme")[0].textContent +
             "</td><td>" +
@@ -44,28 +33,6 @@ let xmlhttp = new XMLHttpRequest();
             + "</tr>";            
         }
         document.getElementById("data").innerHTML = table;
-    }
-
-    function loadPage(pageNumber) {
-        //Mettre à jour la valeur de page en fonction de pageNumber
-        page = pageNumber
-        //Appeler la fonction fetchData 
-        fetchData()
-    }
-
-    function showPageLinks() {
-        let divpl = document.getElementById("pageLinks");
-        divpl.style.display = "block";
-    
-        let pageLinks="";
-    
-        nbPage=Math.ceil(xmlhttp.responseXML.getElementsByTagName("book").length/10);
-    
-        for (i=1; i<=nbPage ;i++){
-            pageLinks += "<input type='button' onclick='loadPage("+i+")' value='"+i+"'></input>";
-        }
-    
-        divpl.innerHTML = pageLinks;
     }
 
     /*function filterData(){
