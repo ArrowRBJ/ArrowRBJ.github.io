@@ -57,11 +57,11 @@ let xmlhttp = new XMLHttpRequest();
         let xmlDoc = xmlhttp.responseXML;
         let table = "<tr><th>Theme</th><th>Questions</th><th>Reponses</th></tr>";
         let x = xmlDoc.getElementsByTagName("question");
-        let theme =  document.getElementById("thematique");
+        let theme =  document.getElementById("theme");
         for (i = 0; i < x.length; i++) {
-            if(theme.value==x[i].getElementsByTagName("thematique")[0].textContent){
+            if(theme.value==x[i].getElementsByTagName("theme")[0].textContent){
                 table += "<tr><td>" +
-                x[i].getElementsByTagName("thematique")[0].textContent +
+                x[i].getElementsByTagName("theme")[0].textContent +
                 "</td><td>" +
                 x[i].getElementsByTagName("contenu")[0].textContent +
                 "</td><td>" +
