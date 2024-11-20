@@ -84,11 +84,10 @@ let xmlhttp = new XMLHttpRequest();
         let Questionid = urlParams.get('id');
         
         let xmlDoc = xmlhttp.responseXML;    
-        let questions = xmlDoc.getElementsByTagName("question");
-        let found =false;    
+        let questions = xmlDoc.getElementsByTagName("question");    
         
         for (let i = 0; i < questions.length; i++) {
-            if (questions[i].getElementsByTagName("id")[0].textContent === questionId) {
+            if (questions[i].getElementsByTagName("id")[0].textContent === Questionid) {
                 document.getElementById("txtQuestion").value = questions[i].getElementsByTagName("contenu")[0].textContent;
                 document.getElementById("txtReponse").value = questions[i].getElementsByTagName("bonne_reponse")[0].textContent;
                 found = true;
