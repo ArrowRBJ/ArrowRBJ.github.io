@@ -19,10 +19,10 @@ let xmlhttp = new XMLHttpRequest();
         let x = xmlDoc.getElementsByTagName("question");
 
          //Calculer nbPage    
-        nbPage = Math.ceil(50/15);
+        nbPage = Math.ceil(50/10);
         //Calculer startIndex et endIndex    
         startIndex= 15*(page-1);
-        endIndex= startIndex+15-1;
+        endIndex= startIndex+10-1;
 
         if (endIndex>= x.length) {
             endIndex= x.length -1;
@@ -127,5 +127,6 @@ let xmlhttp = new XMLHttpRequest();
     }
 
     function play(){
+        
 
     }
