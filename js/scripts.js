@@ -60,7 +60,7 @@ let xmlhttp = new XMLHttpRequest();
             let xmlDoc = xmlhttp.responseXML;
             let table = "<tr><th>question</th><th>reponse</th></tr>";
             let x= xmlDoc.getElementsByTagName("question");
-            let choix=document.getElementById("theme").value;
+            let choix=document.getElementById("thematique").value;
             for(i=0;i<x.length;i++){
                 
                 if(x[i].getElementsByTagName("theme")[0].textContent==choix || choix== "Tout"){
