@@ -60,6 +60,7 @@ let xmlhttp = new XMLHttpRequest();
     }
 
     function displayDetails(){
+        loadXMLDoc();
         let urlParams = new URLSearchParams(window.location.search);
         let Questionid = urlParams.get('id');
 
