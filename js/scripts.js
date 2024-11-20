@@ -45,11 +45,17 @@ let xmlhttp = new XMLHttpRequest();
             
             if(x[i].getElementsByTagName("theme")[0].textContent==choix || choix== "Tout"){
                 table += "<tr><td>" +
-                x[i].getElementsByTagName("contenu")[0].textContent +
-                "</td><td> " +
-                x[i].getElementsByTagName("bonne_reponse")[0].textContent +
-                "</td></tr>"        
-                ;
+            x[i].getElementsByTagName("theme")[0].textContent +
+            "</td><td>" +
+            x[i].getElementsByTagName("contenu")[0].textContent +
+            "</td><td>" +
+            x[i].getElementsByTagName("bonne_reponse")[0].textContent +
+            "</td><td>"
+            + "<a href='detail.html?id="
+            + x[i].getElementsByTagName("id")[0].textContent
+            + "'>Details</a>"            
+            + "</td>"
+            + "</tr>";
             }
                 
         }
