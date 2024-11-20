@@ -101,10 +101,10 @@ let xmlhttp = new XMLHttpRequest();
         
         for (i = 0; i < x.length; i++) {        
             if (x[i].getElementsByTagName("id")[0].childNodes[0].nodeValue == iddata){
-                //Afficher les information du livre en utilisant les textboxes : txtTitle, txtAuthor, txtYear
-                txtQ.value = x[i].getElementsByTagName("question")[0].textContent;
-                txtA.value = x[i].getElementsByTagName("contenu")[0].textContent;
-                txtD.value = x[i].getElementsByTagName("bonne_reponse")[0].textContent;
+                //Afficher les information en utilisant les textboxes 
+                txtQ.value = x[i].getElementsByTagName("contenu")[0].textContent;
+                txtA.value = x[i].getElementsByTagName("bonne_reponse")[0].textContent;
+                txtD.value = x[i].getElementsByTagName("explication")[0].textContent;
             }
         }
     }
