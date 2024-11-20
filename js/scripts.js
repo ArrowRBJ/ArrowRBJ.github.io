@@ -47,7 +47,7 @@ let xmlhttp = new XMLHttpRequest();
                 table += "<tr><td>" +
                 x[i].getElementsByTagName("contenu")[0].textContent +
                 "</td><td> " +
-                x[i].getElementsByTagName("<bonne_reponse")[0].textContent +
+                x[i].getElementsByTagName("bonne_reponse")[0].textContent +
                 "</td></tr>"        
                 ;
             }
