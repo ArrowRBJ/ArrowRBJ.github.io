@@ -59,7 +59,7 @@ let xmlhttp = new XMLHttpRequest();
     
         let pageLinks="";
     
-        nbPage=Math.ceil(xmlhttp.responseXML.getElementsByTagName("book").length/pageSize);
+        nbPage=Math.ceil(xmlhttp.responseXML.getElementsByTagName("book").length/10);
     
         for (i=1; i<=nbPage ;i++){
             pageLinks += "<input type='button' onclick='loadPage("+i+")' value='"+i+"'></input>";
