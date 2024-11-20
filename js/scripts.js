@@ -78,20 +78,37 @@ let xmlhttp = new XMLHttpRequest();
         document.getElementById("option").innerHTML = "<a href='jeu.html' class='btn btn-outline-success btn-lg btn-block'>Aleatoire</a><a href='jeu.html' class='btn btn-outline-success btn-lg btn-block'>Pollution</a><a href='jeu.html' class='btn btn-outline-success btn-lg btn-block'>Biodiversité</a><a href='jeu.html' class='btn btn-outline-success btn-lg btn-block'>Climat</a><a href='jeu.html' class='btn btn-outline-success btn-lg btn-block'>Énergie</a>";
     }
 
-    function displayDetails(){
-        loadXMLDoc();
+    function loadXMLDocAndDisplayData(){       
+        xmlhttp.onreadystatechange = function () {
+            if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+                displayData();
+            }
+        };
+    
+        //xmlhttp.open("GET", "https://obiwan.univ-brest.fr/~e22309086/data/bdd.xml", true);
+        xmlhttp.open("GET", "data/bdd.xml", true);
+        xmlhttp.send();    
+    }
+    
+    function displayData() {
         let urlParams = new URLSearchParams(window.location.search);
-        let Questionid = urlParams.get('id');
-        
+        let iddata = urlParams.get('id');
+    
+        let txtQ = document.getElementById("txtQ");
+        let txtA = document.getElementById("txtA"); 
+        let txtD = document.getElementById("txtD"); 
+
+    
+        let i;        
         let xmlDoc = xmlhttp.responseXML;    
-        let questions = xmlDoc.getElementsByTagName("question");    
+        let x = xmlDoc.getElementsByTagName("book");    
         
-        for (let i = 0; i < questions.length; i++) {
-            if (questions[i].getElementsByTagName("id")[0].textContent === Questionid) {
-                document.getElementById("txtQuestion").value = questions[i].getElementsByTagName("contenu")[0].textContent;
-                document.getElementById("txtReponse").value = questions[i].getElementsByTagName("bonne_reponse")[0].textContent;
-                found = true;
-                break;
+        for (i = 0; i < x.length; i++) {        
+            if (x[i].getElementsByTagName("id")[0].childNodes[0].nodeValue == iddata){
+                //Afficher les information du livre en utilisant les textboxes : txtTitle, txtAuthor, txtYear
+                txtAuthor.value = x[i].getElementsByTagName("question")[0].textContent;
+                txtTitle.value = x[i].getElementsByTagName("contenu")[0].textContent;
+                txtYear.value = x[i].getElementsByTagName("bonne_reponse")[0].textContent;
             }
         }
     }
