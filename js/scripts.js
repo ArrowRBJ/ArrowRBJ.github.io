@@ -97,14 +97,14 @@ let xmlhttp = new XMLHttpRequest();
     
         let i;        
         let xmlDoc = xmlhttp.responseXML;    
-        let x = xmlDoc.getElementsByTagName("book");    
+        let x = xmlDoc.getElementsByTagName("question");    
         
         for (i = 0; i < x.length; i++) {        
             if (x[i].getElementsByTagName("id")[0].childNodes[0].nodeValue == iddata){
                 //Afficher les information du livre en utilisant les textboxes : txtTitle, txtAuthor, txtYear
-                txtAuthor.value = x[i].getElementsByTagName("question")[0].textContent;
-                txtTitle.value = x[i].getElementsByTagName("contenu")[0].textContent;
-                txtYear.value = x[i].getElementsByTagName("bonne_reponse")[0].textContent;
+                txtQ.value = x[i].getElementsByTagName("question")[0].textContent;
+                txtA.value = x[i].getElementsByTagName("contenu")[0].textContent;
+                txtD.value = x[i].getElementsByTagName("bonne_reponse")[0].textContent;
             }
         }
     }
