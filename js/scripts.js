@@ -115,6 +115,13 @@ let xmlhttp = new XMLHttpRequest();
     
 /// fonction pour page Jeu.html
 let correctAnswers = 0; // Nombre de bonnes réponses
+    function shuffleArray(array) {
+        for (let i = array.length - 1; i > 0; i--) {
+            let j = Math.floor(Math.random() * (i + 1));
+            [array[i], array[j]] = [array[j], array[i]];
+        }
+        return array;
+    }
 
     function loadXMLDocAndPlay(){       
         xmlhttp.onreadystatechange = function () {
@@ -172,33 +179,13 @@ let correctAnswers = 0; // Nombre de bonnes réponses
         }    
 
     }
-//teste si la reponse est bonne
-//si nombre de question repondu=10 alor score.html sinon question()
-//enregistre le score de la derniere partie et de la partie actuelle en localstorage
+
     function answer(){
-        let correctAnswer = localStorage.getItem("correctAnswer");
-    
-        
-        let isCorrect = selectedButton.textContent === correctAnswer;
-
-        // Récupérer et mettre à jour le nombre de bonnes réponses et le nombre total de réponses
-        let totalQuestionsAnswered = parseInt(localStorage.getItem("totalQuestionsAnswered")) || 0;
-        let correctAnswers = parseInt(localStorage.getItem("correctAnswers")) || 0;
-
-        if (isCorrect) {
-            correctAnswers++; // Incrémenter le nombre de bonnes réponses
-        }
-
-        totalQuestionsAnswered++; 
-        localStorage.setItem("totalQuestionsAnswered", totalQuestionsAnswered);
-        localStorage.setItem("correctAnswers", correctAnswers);
-
-        
-        if (totalQuestionsAnswered >= 10) {
-            window.location.href = "score.html"; // Rediriger vers scores
-        } else {
-            
-            question(); 
-        }
-        
+        //Objectif etait de verifier que la reponse est bonne
+        //Au bout de 10 question repondues on met fin à la partie
+        //LOCALSTORAGE
+        //On garde une trace du score de la derniere partie
+        //Total des question posées au joueur
+        // pourcentage de bonnes reponse, par theme et total
+        //Ces donnés seraient affichées dans une page statistique
     }
