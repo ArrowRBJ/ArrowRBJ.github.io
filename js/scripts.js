@@ -38,24 +38,24 @@ let xmlhttp = new XMLHttpRequest();
     function filterData(){
         let i;
         let xmlDoc = xmlhttp.responseXML;
-        let table = "<tr><th>question</th><th>reponse</th></tr>";
+        let table = "<tr><th>Theme</th><th>Questions</th><th>Reponses</th></tr>";
         let x= xmlDoc.getElementsByTagName("question");
         let choix=document.getElementById("thematique").value;
         for(i=0;i<x.length;i++){
             
             if(x[i].getElementsByTagName("theme")[0].textContent==choix || choix== "Tout"){
                 table += "<tr><td>" +
-            x[i].getElementsByTagName("theme")[0].textContent +
-            "</td><td>" +
-            x[i].getElementsByTagName("contenu")[0].textContent +
-            "</td><td>" +
-            x[i].getElementsByTagName("bonne_reponse")[0].textContent +
-            "</td><td>"
-            + "<a href='detail.html?id="
-            + x[i].getElementsByTagName("id")[0].textContent
-            + "'>Details</a>"            
-            + "</td>"
-            + "</tr>";
+                x[i].getElementsByTagName("theme")[0].textContent +
+                "</td><td>" +
+                x[i].getElementsByTagName("contenu")[0].textContent +
+                "</td><td>" +
+                x[i].getElementsByTagName("bonne_reponse")[0].textContent +
+                "</td><td>"
+                + "<a href='detail.html?id="
+                + x[i].getElementsByTagName("id")[0].textContent
+                + "'>Details</a>"            
+                + "</td>"
+                + "</tr>";
             }
                 
         }
