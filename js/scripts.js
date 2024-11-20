@@ -114,10 +114,12 @@ let xmlhttp = new XMLHttpRequest();
         
     
 /// fonction pour page Jeu.html
+let correctAnswers = 0; // Nombre de bonnes réponses
+
     function loadXMLDocAndPlay(){       
         xmlhttp.onreadystatechange = function () {
             if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
-                play();
+                question();
             }
         };
     
@@ -125,8 +127,78 @@ let xmlhttp = new XMLHttpRequest();
         xmlhttp.open("GET", "data/bdd.xml", true);
         xmlhttp.send();    
     }
+//dans une database de 80 question, choisit aléatoirement 1 question et enregistre la valeur en localstorage
+    function question(){
+        let xmlDoc = xmlhttp.responseXML;
+        let x = xmlDoc.getElementsByTagName("question");
+        let randomIndex = Math.floor(Math.random() * x.length);
 
-    function play(){
+        // Enregistrer la question dans le localStorage
+        localStorage.setItem("selectedQuestion", JSON.stringify(randomIndex));
+        display();
+    }
+
+    function display(){
+        let xmlDoc = xmlhttp.responseXML;
+        let rndID= localStorage.getItem("selectedQuestion");
+        let x = xmlDoc.getElementsByTagName("question");
+
+        // find question in database
+        let selectedQuestion = null;
+            for (let i = 0; i < x.length; i++) {
+                let id = x[i].getElementsByTagName("id")[0].textContent;
+                if (id === rndID) {
+                    selectedQuestion = x[i];
+                    break;
+                }
+            }
         
+        document.getElementById("question").innerHTML = "<h3>"+selectedQuestion.getElementsByTagName("contenu")[0].textContent+"</h3>";
 
+        let bonneReponse = selectedQuestion.getElementsByTagName("bonne_reponse")[0].textContent;
+        localStorage.setItem("correctAnswer", bonneReponse);
+        let propositions = [];
+        
+        let propositionNodes = selectedQuestion.getElementsByTagName("proposition");
+        for (let i = 0; i < propositionNodes.length; i++) {
+            propositions.push(propositionNodes[i].textContent);
+        }
+        propositions.push(bonneReponse);
+        propositions = shuffleArray(propositions);
+
+        for (let i = 0; i < propositions.length; i++) {
+            let button = document.getElementById((i + 1).toString());
+            button.textContent = propositions[i];        
+        }    
+
+    }
+//teste si la reponse est bonne
+//si nombre de question repondu=10 alor score.html sinon question()
+//enregistre le score de la derniere partie et de la partie actuelle en localstorage
+    function answer(){
+        let correctAnswer = localStorage.getItem("correctAnswer");
+    
+        
+        let isCorrect = selectedButton.textContent === correctAnswer;
+
+        // Récupérer et mettre à jour le nombre de bonnes réponses et le nombre total de réponses
+        let totalQuestionsAnswered = parseInt(localStorage.getItem("totalQuestionsAnswered")) || 0;
+        let correctAnswers = parseInt(localStorage.getItem("correctAnswers")) || 0;
+
+        if (isCorrect) {
+            correctAnswers++; // Incrémenter le nombre de bonnes réponses
+        }
+
+        totalQuestionsAnswered++; 
+        localStorage.setItem("totalQuestionsAnswered", totalQuestionsAnswered);
+        localStorage.setItem("correctAnswers", correctAnswers);
+
+        
+        if (totalQuestionsAnswered >= 10) {
+            window.location.href = "score.html"; // Rediriger vers scores
+        } else {
+            
+            question(); 
+        }
+        
     }
