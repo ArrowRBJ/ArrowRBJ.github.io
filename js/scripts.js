@@ -52,6 +52,21 @@ let xmlhttp = new XMLHttpRequest();
         fetchData()
     }
 
+    function showPageLinks() {
+        let divpl = document.getElementById("pageLinks");
+        divpl.style.display = "block";
+    
+        let pageLinks="";
+    
+        nbPage=Math.ceil(xmlhttp.responseXML.getElementsByTagName("book").length/pageSize);
+    
+        for (i=1; i<=nbPage ;i++){
+            pageLinks += "<input type='button' onclick='loadPage("+i+")' value='"+i+"'></input>";
+        }
+    
+        divpl.innerHTML = pageLinks;
+    }
+
     function filterData(){
         let i;
         let xmlDoc = xmlhttp.responseXML;
