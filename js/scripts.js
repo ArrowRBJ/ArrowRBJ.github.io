@@ -55,7 +55,7 @@ let xmlhttp = new XMLHttpRequest();
         document.getElementById("data").innerHTML = table;
         
     }*/
-        function filtrerData(){
+        function filterData(){
             let i;
             let xmlDoc = xmlhttp.responseXML;
             let table = "<tr><th>question</th><th>reponse</th></tr>";
