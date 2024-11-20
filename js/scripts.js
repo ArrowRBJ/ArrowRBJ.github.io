@@ -163,7 +163,6 @@ let correctAnswers = 0; // Nombre de bonnes réponses
         document.getElementById("question").innerHTML = "<h3>"+selectedQuestion.getElementsByTagName("contenu")[0].textContent+"</h3>";
 
         let bonneReponse = selectedQuestion.getElementsByTagName("bonne_reponse")[0].textContent;
-        localStorage.setItem("correctAnswer", bonneReponse);
         let propositions = [];
         
         let propositionNodes = selectedQuestion.getElementsByTagName("proposition");
@@ -180,7 +179,29 @@ let correctAnswers = 0; // Nombre de bonnes réponses
 
     }
 
-    function answer(){
+    function answer(selectedAnswer){
+        let rndID = localStorage.getItem("selectedQuestion");
+        let xmlDoc = xmlhttp.responseXML;
+        let x = xmlDoc.getElementsByTagName("question");
+
+        let selectedQuestion = null;
+        for (let i = 0; i < x.length; i++) {
+            let id = x[i].getElementsByTagName("id")[0].textContent;
+            if (id === rndID) {
+                selectedQuestion = x[i];
+                break;
+            }
+        }
+
+        // Récupérer la bonne réponse
+        let bonneReponse = selectedQuestion.getElementsByTagName("bonne_reponse")[0].textContent;
+
+        // Vérifier si la réponse est correcte
+        if (selectedAnswer === bonneReponse) {
+            alert("Vrai !");  // Réponse correcte
+        } else {
+            alert("Faux ! La bonne réponse est : " + bonneReponse);  // Réponse incorrecte
+        }
         //Objectif etait de verifier que la reponse est bonne
         //Au bout de 10 question repondues on met fin à la partie
         //LOCALSTORAGE
