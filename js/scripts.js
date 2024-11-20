@@ -74,6 +74,9 @@ let xmlhttp = new XMLHttpRequest();
         
     }
 
+
+
+/// fonction pour page detail.html
     function loadXMLDocAndDisplayData(){       
         xmlhttp.onreadystatechange = function () {
             if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
@@ -110,7 +113,19 @@ let xmlhttp = new XMLHttpRequest();
     }
         
     
+/// fonction pour page Jeu.html
+    function loadXMLDocAndPlay(){       
+        xmlhttp.onreadystatechange = function () {
+            if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+                play();
+            }
+        };
+    
+        //xmlhttp.open("GET", "https://obiwan.univ-brest.fr/~e22309086/data/bdd.xml", true);
+        xmlhttp.open("GET", "data/bdd.xml", true);
+        xmlhttp.send();    
+    }
 
-    function startgame(){
+    function play(){
 
     }
