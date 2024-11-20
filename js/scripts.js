@@ -34,48 +34,27 @@ let xmlhttp = new XMLHttpRequest();
         document.getElementById("data").innerHTML = table;
     }
 
-    /*function filterData(){
+    function filterData(){
         let i;
         let xmlDoc = xmlhttp.responseXML;
-        let table = "<tr><th>Theme</th><th>Questions</th><th>Reponses</th></tr>";
-        let x = xmlDoc.getElementsByTagName("question");
-        let theme =  document.getElementById("theme");
-        for (i = 0; i < x.length; i++) {
-            if(theme.value==x[i].getElementsByTagName("theme")[0].textContent){
+        let table = "<tr><th>question</th><th>reponse</th></tr>";
+        let x= xmlDoc.getElementsByTagName("question");
+        let choix=document.getElementById("thematique").value;
+        for(i=0;i<x.length;i++){
+            
+            if(x[i].getElementsByTagName("theme")[0].textContent==choix || choix== "Tout"){
                 table += "<tr><td>" +
-                x[i].getElementsByTagName("theme")[0].textContent +
-                "</td><td>" +
                 x[i].getElementsByTagName("contenu")[0].textContent +
-                "</td><td>" +
-                x[i].getElementsByTagName("bonne_reponse")[0].textContent +
-                "</td>" +            
-                "</tr>";
+                "</td><td> " +
+                x[i].getElementsByTagName("<bonne_reponse")[0].textContent +
+                "</td></tr>"        
+                ;
             }
+                
         }
         document.getElementById("data").innerHTML = table;
-        
-    }*/
-        function filterData(){
-            let i;
-            let xmlDoc = xmlhttp.responseXML;
-            let table = "<tr><th>question</th><th>reponse</th></tr>";
-            let x= xmlDoc.getElementsByTagName("question");
-            let choix=document.getElementById("thematique").value;
-            for(i=0;i<x.length;i++){
-                
-                if(x[i].getElementsByTagName("theme")[0].textContent==choix || choix== "Tout"){
-                    table += "<tr><td>" +
-                    x[i].getElementsByTagName("contenu")[0].textContent +
-                    "</td><td> " +
-                    x[i].getElementsByTagName("<bonne_reponse")[0].textContent +
-                    "</td></tr>"        
-                    ;
-                }
-                   
-            }
-            document.getElementById("data").innerHTML = table;
-                
-        }
+            
+    }
         
 
 
