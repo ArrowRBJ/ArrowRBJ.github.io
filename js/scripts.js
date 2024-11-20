@@ -1,3 +1,4 @@
+//fonction page apprendre.html
 let xmlhttp = new XMLHttpRequest();
     function loadXMLDoc() {
         xmlhttp.onreadystatechange = function () {
@@ -56,9 +57,6 @@ let xmlhttp = new XMLHttpRequest();
             
     }
         
-
-
-
 /// fonction pour page detail.html
     function loadXMLDocAndDisplayData(){       
         xmlhttp.onreadystatechange = function () {
