@@ -63,24 +63,22 @@ let xmlhttp = new XMLHttpRequest();
         loadXMLDoc();
         let urlParams = new URLSearchParams(window.location.search);
         let Questionid = urlParams.get('id');
-
-        let txtQuestion = document.getElementById("txtQuestion");
-        let txtReponse = document.getElementById("txtReponse"); 
-        //let txtDetail = document.getElementById("txtDetail");
-
-        let i;        
-        let xmlDoc = xmlhttp.responseXML;    
-        let x = xmlDoc.getElementsByTagName("question");    
         
-        for (i = 0; i < x.length; i++) {        
-            if (x[i].getElementsByTagName("id")[0].childNodes[0].nodeValue == Questionid){
-                //Afficher les information en utilisant les textboxes
-                txtQuestion.value = x[i].getElementsByTagName("contenu")[0].textContent;
-                txtReponse.value = x[i].getElementsByTagName("bonne_reponse")[0].textContent;
-                //txtYear.value = x[i].getElementsByTagName("published_year")[0].textContent;
+        let xmlDoc = xmlhttp.responseXML;    
+        let questions = xmlDoc.getElementsByTagName("question");
+        let found =false;    
+        
+        for (let i = 0; i < questions.length; i++) {
+            if (questions[i].getElementsByTagName("id")[0].textContent === questionId) {
+                document.getElementById("txtQuestion").value = questions[i].getElementsByTagName("contenu")[0].textContent;
+                document.getElementById("txtReponse").value = questions[i].getElementsByTagName("bonne_reponse")[0].textContent;
+                found = true;
+                break;
             }
         }
     }
+        
+    
 
     function startgame(){
 
